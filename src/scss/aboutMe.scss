@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0px;
+}
+
+
+
+@font-face {
+  font-family:'Gingham'; 
+  src: url("Gingham.woff2")
+    format("woff2");
+}
+
+main {
+  min-height: 80vh;
+  
+}
+
+// html {
+//   font-family:'Gingham';
+// }
+
+h1 {
+  font-family:'Gingham';
+  font-variation-settings: "wght" 700, "wdth" 400;
+  font-size: 100px;
+}
+
+h2 {
+  font-family:'Gingham';
+  font-variation-settings: "wght" 0, "wdth" 0;
+  font-size: 60px;
+}
+
+.anim1 {
+  animation: anim1 2s infinite alternate;
+}
+
+@keyframes anim1 {
+  from {
+    font-variation-settings: "wght" 0, "wdth" 0;
+  }
+  to {
+    font-variation-settings: "wght" 700, "wdth" 150;
+  }
+  
+}
