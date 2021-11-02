@@ -1,15 +1,14 @@
-import './App.css';
 import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
-import './index.scss';
+import Header from './components/nav/Header'
+import Footer from './components/nav/Footer'
+import AboutMe from './components/AboutMe'
 
 function App() {
   return (
     <div className="App">
       <Header />
       <main>
-        <div>body</div>
+        <AboutMe />
       </main>
       <Footer />
     </div>
