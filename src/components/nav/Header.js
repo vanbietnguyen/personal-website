@@ -1,10 +1,16 @@
 import React from 'react';
-// import Link from 'react-router-dom'
+
 const Header = () => {
     return (
         <header>
+            <p>Van Biet Nguyen</p>
             <nav>
-                van header
+                <ul>
+                    <li>about me</li>
+                    <li>skills</li>
+                    <li>resume</li>
+                    <li>contact me</li>
+                </ul>
             </nav>
         </header>
     )

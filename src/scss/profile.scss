@@ -1,0 +1,96 @@
+@font-face {
+  font-family:'Gingham'; 
+  src: url("Gingham.woff2")
+    format("woff2");
+}
+
+main {
+  min-height: 80vh;
+  
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 50%;
+}
+
+h1 {
+  position: absolute;
+  color: white;
+  font-family:'grtsk';
+  font-variation-settings: "wght" 700, "wdth" 400;
+  font-size: 90px;
+  top: 60%;
+  left: 30%;
+}
+
+.prof-pic {
+    margin-top: 5%;
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+// about-me-text {
+  
+// }
+
+.anim1 {
+  animation: anim1 2s infinite alternate;
+}
+// "wght" 0, 
+@keyframes anim1 {
+  from {
+    font-variation-settings: "wdth" 0;
+  }
+  to {
+    font-variation-settings: "wdth" 400;
+  }
+  
+}
+
+.anim2 {
+  animation: anim2 2s infinite alternate;
+}
+
+@keyframes anim2 {
+  from {
+    margin-left: 50px;
+  }
+  to {
+    margin-left: 80px;
+  }
+  
+}
+
+.anim3 {
+  animation: anim3 2s infinite alternate;
+}
+
+@keyframes anim3 {
+  from {
+    font-variation-settings: "wdth" 400;
+  }
+  to {
+    font-variation-settings: "wdth" 0;
+  }
+  
+}
+
+.anim4 {
+  animation: anim4 2s infinite alternate;
+}
+
+@keyframes anim4 {
+  from {
+    margin-left: 50px;
+  }
+  to {
+    margin-left: 0px;
+  }
+  
+}

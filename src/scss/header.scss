@@ -1,0 +1,18 @@
+header {
+    font-size: 1.5rem;
+    margin-left: 2.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    position: fixed;
+    right: 5%;
+}
+
+
+ul li {
+    list-style-type: none;
+}

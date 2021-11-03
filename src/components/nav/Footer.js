@@ -3,7 +3,12 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
-            My Portfolio Website
+            <ul>
+                <li>linkedin</li>
+                <li>github</li>
+                <li>recent production</li>
+                <li>personal instagram</li>
+            </ul>
         </footer>
     )
 }

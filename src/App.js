@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/nav/Header'
 import Footer from './components/nav/Footer'
+import Profile from './components/Profile'
 import AboutMe from './components/AboutMe'
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
     <div className="App">
       <Header />
       <main>
+        <Profile />
         <AboutMe />
+        
       </main>
       <Footer />
     </div>
