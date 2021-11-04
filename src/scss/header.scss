@@ -1,17 +1,16 @@
 header {
-    font-size: 1.5rem;
-    margin-left: 2.5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-size: 1.5rem;
+    margin-left: 2.5%;
     position: fixed;
-    top: 0;
 }
 
 nav {
+    // margin-bottom: 20%;sticky 
     position: fixed;
-    right: 5%;
+    right: 0;
 }
-
 
 ul li {
     list-style-type: none;

@@ -3,13 +3,16 @@ import React from 'react';
 const Header = () => {
     return (
         <header>
-            <p>Van Biet Nguyen</p>
+            {/* <div>test</div> */}
+            <ul id='left-nav'>
+                    <li>Van Biet</li>
+                    <li>Nguyen</li>
+                </ul>
             <nav>
-                <ul>
-                    <li>about me</li>
+                <ul id='right-nav'>
+                    <li>about</li>
                     <li>skills</li>
                     <li>resume</li>
-                    <li>contact me</li>
                 </ul>
             </nav>
         </header>

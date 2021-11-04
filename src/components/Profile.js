@@ -1,12 +1,13 @@
 import React from 'react';
 import me from './me.jpg'
-// import { Container, Row, Col } from 'react-bootstrap'
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 
 const Profile = () => {
     return (
        <div className="centered">
-           <h1>
+           <h1 id="title-text">
                <span className="anim2">So</span>
                <span className="anim1">ft</span>
                <span className="anim4">wa</span>
@@ -17,10 +18,8 @@ const Profile = () => {
                <span className="anim4">ne</span>
                <span className="anim3">er</span>
                <span className="anim4"></span>
-               
             </h1>
-           {/* <h2 className="anim1">About me</h2> */}
-           <img className='prof-pic' alt='me' src={me}/>
+           <img id='prof-pic' alt='me' src={me}/>
        </div>
     )
 }

@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 const AboutMe = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, [])
+
     return (
-       <div>
-           <h2>about me</h2>
-           {/* <h2 className="anim1">About me</h2> */}
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>           
+       <div data-aos="zoom-out" id="about-me">
+            <p>
+                Creator of <span className='inverted'>Dockure</span>. <span className='inverted'>Fullstack</span> engineer that loves implementing and learning <span className='inverted'>cohesive and decoupled</span> design patterns
+                Also passionate about youth community work and <span className='inverted'>revitalizing Chinatown</span>
+                <br/>
+                Knicks fan <span className='inverted'>#bingbong</span>
+            </p>
+            {/* </p>            */}
        </div>
     )
 }
