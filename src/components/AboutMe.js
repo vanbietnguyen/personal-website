@@ -9,7 +9,7 @@ const AboutMe = () => {
     }, [])
 
     return (
-       <div data-aos="zoom-out" id="about">
+       <div data-aos="zoom-out" id="about" className="marg-bot min-hei">
             <p>
                 Creator of <span className='inverted'>Dockure</span>. <span className='inverted'>Fullstack</span> engineer who loves learning and implementing <span className='inverted'>cohesive and decoupled</span> design patterns.
                 <span className='inverted'> Passionate</span> about youth community work and <span className='inverted'>revitalizing Chinatown</span>.

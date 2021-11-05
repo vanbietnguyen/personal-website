@@ -18,10 +18,12 @@
             right: .75%;
         }
     }
-    // .centered {
-    //     margin-top: 2.5%;
-    // }
-
+    .marg-bot {
+        margin-bottom: 160vh;
+      }
+    .menhei {
+        min-height: 120vh;
+    }
     #prof-pic {
       width: 40%;
       height: auto;
@@ -72,6 +74,13 @@
             padding-right: .5rem;
             right: .75%;
         }
+    }
+    .marg-bot {
+        margin-bottom: 140vh;
+      }
+
+    .menhei {
+        min-height: 110vh;
     }
     #prof-pic {
         width: 45%;
@@ -124,6 +133,13 @@
             right: .75%;
         }
     }
+    .marg-bot {
+        margin-bottom: 120vh;
+      }
+
+    .menhei {
+        min-height: 100vh;
+    }
     #prof-pic {
         width: 50%;
         height: auto;
@@ -136,7 +152,6 @@
         font-size: 425%;
         margin-left: 2.4em;
         margin-right: 4em;
-        margin-bottom: 1200px;
     }
     #about {
         font-size: 450%;
@@ -163,12 +178,6 @@
     header {
         font-size: 1.5rem;
         top: 2%;
-        // #right-nav {
-        //     right: 7%
-        // }
-        // #left-nav {
-        //     right: 5%
-        // }
     }
     footer {
         font-size: 1.5rem;
@@ -176,6 +185,12 @@
         #socials {
             margin-left: 0%;
         }
+    }
+    .marg-bot {
+        margin-bottom: 100vh;
+      }
+    .menhei {
+        min-height: 90vh;
     }
     #prof-pic {
         width: 55%;
@@ -189,16 +204,14 @@
         font-size: 275%;
         margin-left: 3.4em;
         margin-right: 2.1em;
-        min-height: 80vh;
         // text-align: justify;
     }
     #skills {
         font-size: 375%;
         margin-left: 2em;
         margin-right: 4em;
-        min-height: 80vh;
-        margin-bottom: 800px;
     }
+
     #know-me {
         font-variation-settings: "wght" 1000, "wdth" 400;
         margin: 3rem;
@@ -238,9 +251,6 @@
         #right-nav {
             right: 7%
         }
-        // #left-nav {
-        //     right: 5%
-        // }
     }
     footer {
         font-size: 1rem;
@@ -256,9 +266,13 @@
             right: .75%;
         }
     }
-    #profile {
-        min-height: 60vh;
-    }
+    .marg-bot {
+        margin-bottom: 80vh;
+      }
+
+    .menhei {
+        min-height: 80vh;
+      }
     #title-text {
         font-size: 125%;
         margin-top: 53%;
@@ -267,15 +281,12 @@
         font-size: 151%;
         margin-left: 4em;
         margin-right: 4em;
-        min-height: 60vh;
         // text-align: justify;
     }
     #skills {
         font-size: 155%;
         margin-left: 3.5rem;
         min-height: 40vh;
-        margin-bottom: 400px;
-        min-height: 80vh;
     }
     #socials {
         display: block;
@@ -303,12 +314,14 @@
         font-size: 40%;
         margin-top: 65%;
     }
+    .menhei {
+        min-height: 50vh;
+      }
     #about {
         font-variation-settings: "wght" 1000, "wdth" 400;
         font-size: 40%;
         margin-left: 4em;
         margin-right: 1em;
-        min-height: 100vh;
     }
     #skills {
         font-size: .5em;

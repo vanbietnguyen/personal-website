@@ -6,7 +6,7 @@ import "aos/dist/aos.css"
 
 const Profile = () => {
     return (
-            <div id="home" className="centered">
+            <div id="home" className="centered marg-bot min-hei" >
                 <h1 id="title-text">
                     <span className="inverted">s</span>
                     <span className="anim1 inverted">o</span>
