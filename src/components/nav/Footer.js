@@ -6,11 +6,13 @@ const Footer = () => {
     
     return (
         <footer>
-            <ul id="socials">
-                <li>linkedin</li>
-                <li >github</li>
-                <li>dockure</li>
-                <li>instagram</li>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/van-biet-nguyen/">linkedin</a>
+                </li>
+                <li ><a href="https://github.com/vanbietnguyen">github</a></li>
+                <li><a href="http://dockure.com">dockure</a></li>
+                {/* <li>instagram</li> */}
             </ul>
             <ul id="contact">
                 <li onClick={() => setCopied(true)}>

@@ -10,10 +10,34 @@ body {
   font-family: grtsk;
   color: white;
   background-color: $background;
-  background-image: url('annie-spratt-6a3nqQ1YwBw-unsplash.jpeg')
+  background-image: url('../static/annie-spratt-6a3nqQ1YwBw-unsplash.jpeg')
 }
 
 ul li {
   cursor: pointer;
 }
 
+ul li {
+  list-style-type: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+.inverted {
+  margin-top: 50%;
+  color: black;
+  font-family:'grtsk';
+  text-shadow: #fff 0 0 1.5px, #fff 0 0 1.5px, #fff 0 0 1.5px, #fff 0 0 1.5px, #fff 0 0 1.5px, #fff 0 0 1.5px;
+  
+}
