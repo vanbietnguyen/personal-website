@@ -1,0 +1,122 @@
+
+@media (min-width: 1300px) {
+    .centered {
+        margin-top: 2.5%;
+    }
+
+    #prof-pic {
+      width: 40%;
+      height: auto;
+    }
+    #title-text {
+      font-size: 500%;
+      margin-top: 40%;
+    }
+  }
+
+@media (max-width: 1299px) {
+    #prof-pic {
+        width: 45%;
+        height: auto;
+    }
+    #title-text {
+        font-size: 400%;
+        margin-top: 40%;
+    }
+}
+
+@media (max-width: 1100px) {
+    #prof-pic {
+        width: 50%;
+        height: auto;
+    }
+    #title-text {
+        font-size: 350%;
+        margin-top: 50%;
+    }
+}
+
+@media (max-width: 780px) {
+    #prof-pic {
+        width: 55%;
+        height: auto;
+    }
+    #title-text {
+        font-size: 265%;
+        margin-top: 60%;
+    }
+    #about {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        font-size: 300%;
+        margin-left: 2.5em;
+        margin-right: 1em;
+        min-height: 100vh;
+        // text-align: justify;
+    }
+    #skills {
+        font-size: 300%;
+        margin-left: 3em;
+        margin-right: 4em;
+    }
+}
+
+@media (max-width: 500px) {
+    #prof-pic {
+        width: 55%;
+        height: auto;
+    }
+
+    #title-text {
+        font-size: 200%;
+        margin-top: 58%;
+    }
+    #about {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        font-size: 200%;
+        margin-left: 2.75em;
+        margin-right: 1em;
+        min-height: 100vh;
+        // text-align: justify;
+    }
+    #skills {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 426px) {
+    #title-text {
+        font-size: 125%;
+        margin-top: 53%;
+    }
+    #about {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        font-size: 200%;
+        margin-left: 2.75em;
+        margin-right: 1em;
+        min-height: 100vh;
+        // text-align: justify;
+    }
+    #skills {
+        font-size: 200%;
+        margin-left: 3em;
+    }
+}
+
+@media (max-width: 200px) {
+    #title-text {
+        font-size: 40%;
+        margin-top: 65%;
+    }
+    #about {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        font-size: 100%;
+        margin-left: 2.5em;
+        margin-right: 1em;
+        min-height: 100vh;
+    }
+    #skills {
+        font-size: 100%;
+        margin-left: 2em;
+    }
+}

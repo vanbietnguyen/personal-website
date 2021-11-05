@@ -1,18 +1,32 @@
 import React from 'react'
+// import { Routes, Route } from 'react-router-dom';
 import Header from './components/nav/Header'
 import Footer from './components/nav/Footer'
+import Profile from './components/Profile'
 import AboutMe from './components/AboutMe'
+import Skills from './components/Skills'
+import Salutations from './components/Salutations'
+
 
 function App() {
+
   return (
-    <div className="App">
+    <div>
       <Header />
-      <main>
-        <AboutMe />
-      </main>
+        <main>
+          <Profile />
+          <AboutMe />
+          <Skills />
+          <Salutations />
+        </main>
       <Footer />
     </div>
   );
 }
 
 export default App;
+
+// <Routes>
+//             <Route exact path='/' element={<Profile />}/>
+//             <Route path='/about' element={<AboutMe />}/>
+//           </Routes>

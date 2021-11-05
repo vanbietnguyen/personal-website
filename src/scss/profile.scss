@@ -1,0 +1,91 @@
+@font-face {
+  font-family:'Gingham'; 
+  src: url("Gingham.woff2")
+    format("woff2");
+}
+
+.centered {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100vh;
+}
+
+h1 {
+  position: absolute;
+  text-align: center;
+  align-self: center;
+  margin-top: 50%;
+  color: white;
+  font-family:'grtsk';
+  font-variation-settings: "wght" 700, "wdth" 400;
+  font-size: 500%;
+}
+
+#prof-pic {
+  border-radius: 50%;
+  width: 45%;
+  height: auto;
+}
+
+// about-me-text {
+  
+// }
+
+// .anim1 {
+//   animation: anim1 2s infinite alternate;
+// }
+// // "wght" 0, 
+// @keyframes anim1 {
+//   from {
+//     font-variation-settings: "wdth" 0;
+//   }
+//   to {
+//     font-variation-settings: "wdth" 400;
+//   }
+  
+// }
+
+// .anim2 {
+//   animation: anim2 2s infinite alternate;
+// }
+
+// @keyframes anim2 {
+//   from {
+//     margin-left: 50px;
+//   }
+//   to {
+//     margin-left: 80px;
+//   }
+  
+// }
+
+// .anim3 {
+//   animation: anim3 2s infinite alternate;
+// }
+
+// @keyframes anim3 {
+//   from {
+//     font-variation-settings: "wdth" 400;
+//   }
+//   to {
+//     font-variation-settings: "wdth" 0;
+//   }
+  
+// }
+
+// .anim4 {
+//   animation: anim4 2s infinite alternate;
+// }
+
+// @keyframes anim4 {
+//   from {
+//     margin-left: 50px;
+//   }
+//   to {
+//     margin-left: 0px;
+//   }
+  
+// }
+

@@ -1,0 +1,13 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5rem;
+    left: 0%;
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    position: fixed;
+    right: 2%;
+}
