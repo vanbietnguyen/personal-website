@@ -45,6 +45,19 @@
         font-size: 265%;
         margin-top: 60%;
     }
+    #about {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        font-size: 300%;
+        margin-left: 2.5em;
+        margin-right: 1em;
+        min-height: 100vh;
+        // text-align: justify;
+    }
+    #skills {
+        font-size: 300%;
+        margin-left: 3em;
+        margin-right: 4em;
+    }
 }
 
 @media (max-width: 500px) {
@@ -57,6 +70,18 @@
         font-size: 200%;
         margin-top: 58%;
     }
+    #about {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        font-size: 200%;
+        margin-left: 2.75em;
+        margin-right: 1em;
+        min-height: 100vh;
+        // text-align: justify;
+    }
+    #skills {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        font-size: 200%;
+    }
 }
 
 @media (max-width: 426px) {
@@ -64,11 +89,34 @@
         font-size: 125%;
         margin-top: 53%;
     }
+    #about {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        font-size: 200%;
+        margin-left: 2.75em;
+        margin-right: 1em;
+        min-height: 100vh;
+        // text-align: justify;
+    }
+    #skills {
+        font-size: 200%;
+        margin-left: 3em;
+    }
 }
 
 @media (max-width: 200px) {
     #title-text {
         font-size: 40%;
         margin-top: 65%;
+    }
+    #about {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        font-size: 100%;
+        margin-left: 2.5em;
+        margin-right: 1em;
+        min-height: 100vh;
+    }
+    #skills {
+        font-size: 100%;
+        margin-left: 2em;
     }
 }

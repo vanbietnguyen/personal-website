@@ -14,6 +14,7 @@ const Header = () => {
                     <li><Link activeClass="active" to="home" spy={true} smooth={true}>home</Link></li>
                     <li><Link  to="about" spy={true} smooth={true}>about</Link></li>
                     <li><Link  to="skills" spy={true} smooth={true}>skills</Link></li>
+                    <li><Link  to="salutations" spy={true} smooth={true}>salutations</Link></li>
                     
                     <li onClick={() => console.log('clocked')}>
                         <a href="https://drive.google.com/u/1/uc?id=1wlgxq_NmCJPdKLyaG7fZNIYOZH-TmaOV&export=download">resume</a>

@@ -6,7 +6,7 @@ import gmailIcon from '../static/gmailicon1.png'
 const Salutations = () => {
     return (
         <div data-aos="zoom-down" id="salutations">
-            <ul><li id="know-me">Get to know me!</li></ul>
+            <ul><li id="know-me">Get to <span className="inverted">know </span>me!</li></ul>
             <ul id="socials">
                 <li><a href="https://github.com/vanbietnguyen"><img className="icon" id='gitIcon' src={gitIcon} alt=""/></a></li>
                 <li><a href="https://www.linkedin.com/in/van-biet-nguyen/"><img className="icon" id='linkedIcon' src={inIcon} alt=""/></a></li>
