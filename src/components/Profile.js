@@ -27,7 +27,7 @@ const Profile = () => {
                     <span className="anim1">r</span>
                     <span className=" inverted"></span>
                 </h1>
-                <img id='prof-pic' alt='me' src="https://lh3.googleusercontent.com/5r4rpc1QumymJrUBREG9Ln2M-NCJ5KX7uOXMl1vj-fjvHZf_Nbihel4IbHjWI_CK2vErT40tpsh5UDkAciQ2nyO8jCEamAH3EeV6EYPcokxH2ifiiXCo8AzY21X4MzUKYbha_HIuUwWgHVfafEJLChHgsnbjYL_hNiHSgxr8-YNniL14haF7CHBoWUdkt_RY5_bAlCwWsyplNJs7qCwkNNPCVLzzPKolnl1BSzvm4siOss_tiSCyF1bLLI-D6MLIX-AhE2L1if1Cp1n9oyz6yg9yGCqJrh346m8DOuREwWpZkVPin0euRPZ7AIeVJdjJkyaZEm-YCDgKC9-KYumxHlMQsEUMFVzByS4Xi-zd-MVj8oUYrDFQoyx_CWpKNUYRxND1o1MSCznjaxFSIzu5Sf2QjxHmKpfsjnW2mytrhY6CC7SrDaSKwoKrD0mYuBVEHRtO_rAJhAX3tUza5fD1YO0SyB86D00KXXCtsjZta_g6fp64nGqxJB-TmdoaIJmejtdKQOzY2lyhag0Pdss8hpVaIvVJpXkQuYuJNn_3Lp7qQzFy8XNIV9ZlXa_QueOrD9zYxIVifsiDqloYX9cCQDwHgLyx-4eiBBhyVQdEkW1LZuGm8QavdBSaGeKz3yOVrJgVgSmvQgCLvx-AHXwjOSX7UpqQ7ejTchQEbQsQBAIF6f3NnfFcveP5W7AA-sHlymF_dlAfLbuvdSYyoYQ=s804-no?authuser=0" />
+                <img id='prof-pic' alt='me' src="https://github.com/vanbietnguyen/personal-website/blob/dev/.github/meInBus.jpeg?raw=true" />
             </div>
     )
 }
