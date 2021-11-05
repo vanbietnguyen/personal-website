@@ -1,8 +1,26 @@
 
 @media (min-width: 1300px) {
-    .centered {
-        margin-top: 2.5%;
+    header {
+        font-size: 2.3rem;
+        top: 2%;
     }
+    footer {
+        font-size: 2.3rem;
+        bottom: 2%;
+        #socials {
+            margin-left: 0%;
+        }
+        #contact {
+            background-color: black;
+            padding-bottom: .5rem;
+            padding-left: .5rem;
+            padding-right: .5rem;
+            right: .75%;
+        }
+    }
+    // .centered {
+    //     margin-top: 2.5%;
+    // }
 
     #prof-pic {
       width: 40%;
@@ -12,9 +30,49 @@
       font-size: 500%;
       margin-top: 40%;
     }
+    #skills {
+        font-size: 575%;
+        margin-left: 5em;
+        margin-right: 4em;
+    }
+    #about {
+        font-size: 550%;
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+    #know-me {
+        margin: 3rem;
+        font-size: 400%;
+    }
+    #salutations {
+        margin-left: 2em;
+        margin-right: 4em;
+        text-align: center;
+        align-self: center;
+        min-height: 60vh;
+        margin-bottom: 3vh;
+    }
   }
 
 @media (max-width: 1299px) {
+    header {
+        font-size: 2.3rem;
+        top: 2%;
+    }
+    footer {
+        font-size: 2.3rem;
+        bottom: 2%;
+        #socials {
+            margin-left: 0%;
+        }
+        #contact {
+            background-color: black;
+            padding-bottom: .5rem;
+            padding-left: .5rem;
+            padding-right: .5rem;
+            right: .75%;
+        }
+    }
     #prof-pic {
         width: 45%;
         height: auto;
@@ -23,9 +81,49 @@
         font-size: 400%;
         margin-top: 40%;
     }
+    #skills {
+        font-size: 500%;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+    #about {
+        font-size: 500%;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+    #know-me {
+        margin: 3rem;
+        font-size: 400%;
+    }
+    #salutations {
+        margin-left: 2em;
+        margin-right: 4em;
+        text-align: center;
+        align-self: center;
+        min-height: 60vh;
+        margin-bottom: 5vh;
+    }
 }
 
 @media (max-width: 1100px) {
+    header {
+        font-size: 2.3rem;
+        top: 2%;
+    }
+    footer {
+        font-size: 2.3rem;
+        bottom: 2%;
+        #socials {
+            margin-left: 0%;
+        }
+        #contact {
+            background-color: black;
+            padding-bottom: .5rem;
+            padding-left: .5rem;
+            padding-right: .5rem;
+            right: .75%;
+        }
+    }
     #prof-pic {
         width: 50%;
         height: auto;
@@ -35,13 +133,50 @@
         margin-top: 50%;
     }
     #skills {
-        font-size: 350%;
-        margin-left: 3em;
+        font-size: 425%;
+        margin-left: 2.4em;
         margin-right: 4em;
+        margin-bottom: 1200px;
+    }
+    #about {
+        font-size: 450%;
+        margin-left: 2.75em;
+        margin-right: 4em;
+    }
+    #know-me {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        margin: 3rem;
+        font-size: 400%;
+        
+    }
+    #salutations {
+        margin-left: 2em;
+        margin-right: 4em;
+        text-align: center;
+        align-self: center;
+        min-height: 50vh;
+        margin-bottom: 15vh;
     }
 }
 
 @media (max-width: 780px) {
+    header {
+        font-size: 1.5rem;
+        top: 2%;
+        // #right-nav {
+        //     right: 7%
+        // }
+        // #left-nav {
+        //     right: 5%
+        // }
+    }
+    footer {
+        font-size: 1.5rem;
+        bottom: 2%;
+        #socials {
+            margin-left: 0%;
+        }
+    }
     #prof-pic {
         width: 55%;
         height: auto;
@@ -51,60 +186,112 @@
         margin-top: 60%;
     }
     #about {
-        font-variation-settings: "wght" 1000, "wdth" 400;
-        font-size: 300%;
-        margin-left: 2.75em;
-        margin-right: 1em;
-        min-height: 100vh;
+        font-size: 275%;
+        margin-left: 3.4em;
+        margin-right: 2.1em;
+        min-height: 80vh;
         // text-align: justify;
     }
     #skills {
-        font-size: 300%;
-        margin-left: 3em;
+        font-size: 375%;
+        margin-left: 2em;
         margin-right: 4em;
+        min-height: 80vh;
+    }
+    #know-me {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        margin: 3rem;
+        font-size: 400%;
+        
     }
 }
 
-@media (max-width: 500px) {
-    #prof-pic {
-        width: 55%;
-        height: auto;
-    }
+// @media (max-width: 500px) {
+//     #prof-pic {
+//         width: 55%;
+//         height: auto;
+//     }
 
-    #title-text {
-        font-size: 200%;
-        margin-top: 58%;
-    }
-    #about {
-        font-variation-settings: "wght" 1000, "wdth" 400;
-        font-size: 200%;
-        margin-left: 3.75em;
-        margin-right: 2em;
-        min-height: 100vh;
-        // text-align: justify;
-    }
-    #skills {
-        font-variation-settings: "wght" 1000, "wdth" 400;
-        font-size: 200%;
-    }
-}
+//     #title-text {
+//         font-size: 200%;
+//         margin-top: 58%;
+//     }
+//     #about {
+//         font-variation-settings: "wght" 1000, "wdth" 400;
+//         font-size: 200%;
+//         margin-left: 3.75em;
+//         margin-right: 2em;
+//         min-height: 100vh;
+//         // text-align: justify;
+//     }
+//     #skills {
+//         font-variation-settings: "wght" 1000, "wdth" 400;
+//         font-size: 200%;
+//     }
+// }
 
 @media (max-width: 426px) {
+    header {
+        font-size: 1rem;
+        top: 2%;
+        #right-nav {
+            right: 7%
+        }
+        // #left-nav {
+        //     right: 5%
+        // }
+    }
+    footer {
+        font-size: 1rem;
+        bottom: 2%;
+        #socials {
+            margin-left: 0%;
+        }
+        #contact {
+            background-color: black;
+            padding-bottom: .5rem;
+            padding-left: .5rem;
+            padding-right: .5rem;
+            right: .75%;
+        }
+    }
+    #profile {
+        min-height: 60vh;
+    }
     #title-text {
         font-size: 125%;
         margin-top: 53%;
     }
     #about {
-        font-variation-settings: "wght" 1000, "wdth" 400;
-        font-size: 200%;
-        margin-left: 3.75em;
+        font-size: 151%;
+        margin-left: 4em;
         margin-right: 4em;
-        min-height: 100vh;
+        min-height: 60vh;
         // text-align: justify;
     }
     #skills {
-        font-size: 200%;
-        margin-left: 3em;
+        font-size: 155%;
+        margin-left: 3.5rem;
+        min-height: 60vh;
+    }
+    #socials {
+        display: block;
+        position: relative;
+        text-align: center;
+        align-self: center;
+    }
+    
+    #know-me {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        margin: 2rem;
+        font-size: 235%;
+        
+    }
+    
+    .icon {
+        width: 8vh;
+        height: auto;
+        margin: 25px;
     }
 }
 
@@ -115,13 +302,13 @@
     }
     #about {
         font-variation-settings: "wght" 1000, "wdth" 400;
-        font-size: 100%;
-        margin-left: 2.5em;
+        font-size: 40%;
+        margin-left: 4em;
         margin-right: 1em;
         min-height: 100vh;
     }
     #skills {
-        font-size: 100%;
+        font-size: .5em;
         margin-left: 2em;
     }
 }
