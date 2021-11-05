@@ -34,6 +34,11 @@
         font-size: 350%;
         margin-top: 50%;
     }
+    #skills {
+        font-size: 350%;
+        margin-left: 3em;
+        margin-right: 4em;
+    }
 }
 
 @media (max-width: 780px) {
@@ -48,7 +53,7 @@
     #about {
         font-variation-settings: "wght" 1000, "wdth" 400;
         font-size: 300%;
-        margin-left: 2.5em;
+        margin-left: 2.75em;
         margin-right: 1em;
         min-height: 100vh;
         // text-align: justify;
@@ -73,8 +78,8 @@
     #about {
         font-variation-settings: "wght" 1000, "wdth" 400;
         font-size: 200%;
-        margin-left: 2.75em;
-        margin-right: 1em;
+        margin-left: 3.75em;
+        margin-right: 2em;
         min-height: 100vh;
         // text-align: justify;
     }
@@ -92,8 +97,8 @@
     #about {
         font-variation-settings: "wght" 1000, "wdth" 400;
         font-size: 200%;
-        margin-left: 2.75em;
-        margin-right: 1em;
+        margin-left: 3.75em;
+        margin-right: 4em;
         min-height: 100vh;
         // text-align: justify;
     }
