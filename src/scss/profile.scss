@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 100vh;
+  margin-bottom: 80vh;
 }
 
 h1 {
@@ -19,8 +19,8 @@ h1 {
   margin-top: 50%;
   color: white;
   font-family:'grtsk';
-  font-variation-settings: "wght" 700, "wdth" 400;
-  font-size: 500%;
+  font-variation-settings: "wght" 1000, "wdth" 300;
+  font-size: 1000%;
 }
 
 #prof-pic {
@@ -33,59 +33,32 @@ h1 {
   
 // }
 
-// .anim1 {
-//   animation: anim1 2s infinite alternate;
-// }
-// // "wght" 0, 
-// @keyframes anim1 {
-//   from {
-//     font-variation-settings: "wdth" 0;
-//   }
-//   to {
-//     font-variation-settings: "wdth" 400;
-//   }
+.anim1 {
+  animation: anim1 2s infinite alternate;
+}
+@keyframes anim1 {
+  from {
+    font-variation-settings: "wdth" 200;
+  }
+  to {
+    font-variation-settings: "wdth" 1000;
+  }
   
-// }
+}
 
-// .anim2 {
-//   animation: anim2 2s infinite alternate;
-// }
+.anim2 {
+  animation: anim2 2s infinite alternate;
+}
 
-// @keyframes anim2 {
-//   from {
-//     margin-left: 50px;
-//   }
-//   to {
-//     margin-left: 80px;
-//   }
+@keyframes anim2 {
+  from {
+    font-variation-settings: "wdth" 1000;
+  }
+  to {
+    font-variation-settings: "wdth" 200;
+  }
   
-// }
+}
 
-// .anim3 {
-//   animation: anim3 2s infinite alternate;
-// }
 
-// @keyframes anim3 {
-//   from {
-//     font-variation-settings: "wdth" 400;
-//   }
-//   to {
-//     font-variation-settings: "wdth" 0;
-//   }
-  
-// }
-
-// .anim4 {
-//   animation: anim4 2s infinite alternate;
-// }
-
-// @keyframes anim4 {
-//   from {
-//     margin-left: 50px;
-//   }
-//   to {
-//     margin-left: 0px;
-//   }
-  
-// }
 
