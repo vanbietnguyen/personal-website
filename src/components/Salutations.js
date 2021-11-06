@@ -2,7 +2,7 @@ import React from 'react';
 
 const Salutations = () => {
     return (
-        <div data-aos="zoom-down" id="salutations">
+        <div data-aos="zoom-up" id="salutations">
             <ul><li id="know-me">Get to <span className="inverted">know </span>me!</li></ul>
             <ul id="socials">
                 <li><a href="https://github.com/vanbietnguyen"><img className="icon" id='gitIcon' src="https://github.com/vanbietnguyen/personal-website/blob/main/.github/githubIcon.png?raw=true" alt=""/></a></li>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div data-aos="zoom-down" id="skills">
+        <div data-aos="zoom-down" id="skills" className="marg-bot min-hei">
             <ul>
                 <li>SKILLS</li>
                 <li><span className="inverted">#Javascript</span></li>

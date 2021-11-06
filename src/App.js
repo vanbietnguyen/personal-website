@@ -7,7 +7,6 @@ import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 import Salutations from './components/Salutations'
 
-
 function App() {
 
   return (
@@ -26,7 +25,3 @@ function App() {
 
 export default App;
 
-// <Routes>
-//             <Route exact path='/' element={<Profile />}/>
-//             <Route path='/about' element={<AboutMe />}/>
-//           </Routes>
