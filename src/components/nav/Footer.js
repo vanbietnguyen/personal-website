@@ -8,10 +8,10 @@ const Footer = () => {
         <footer>
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/in/van-biet-nguyen/">linkedin</a>
+                    <a href="https://www.linkedin.com/in/van-biet-nguyen/" target="_blank" rel="noreferrer">linkedin</a>
                 </li>
-                <li ><a href="https://github.com/vanbietnguyen">github</a></li>
-                <li><a href="http://dockure.com">dockure</a></li>
+                <li ><a href="https://github.com/vanbietnguyen" target="_blank" rel="noreferrer">github</a></li>
+                <li><a href="http://dockure.com" target="_blank" rel="noreferrer">dockure</a></li>
                 {/* <li>instagram</li> */}
             </ul>
             <ul id="contact">
