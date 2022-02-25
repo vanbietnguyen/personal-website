@@ -17,7 +17,7 @@ const Header = () => {
                     <li><Link  to="salutations" spy={true} smooth={true}>salutations</Link></li>
                     
                     <li onClick={() => console.log('clocked')}>
-                        <a href="https://drive.google.com/u/1/uc?id=1wlgxq_NmCJPdKLyaG7fZNIYOZH-TmaOV&export=download">resume</a>
+                        <a href="https://drive.google.com/u/0/uc?id=1wlgxq_NmCJPdKLyaG7fZNIYOZH-TmaOV&export=download">resume</a>
                     </li>
                 </ul>
             </nav>
