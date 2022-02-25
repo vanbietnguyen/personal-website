@@ -33,14 +33,14 @@
       margin-top: 40%;
     }
     #skills {
-        font-size: 575%;
-        margin-left: 5em;
-        margin-right: 4em;
+        font-size: 550%;
+        margin-left: 3em;
+        margin-right: 3em;
     }
     #about {
         font-size: 550%;
-        margin-left: 5em;
-        margin-right: 5em;
+        margin-left: 3em;
+        margin-right: 3em;
     }
     #know-me {
         margin: 3rem;
@@ -91,14 +91,14 @@
         margin-top: 45%;
     }
     #skills {
-        font-size: 500%;
-        margin-left: 4em;
-        margin-right: 4em;
+        font-size: 450%;
+        margin-left: 2.5em;
+        margin-right: 2.75em;
     }
     #about {
-        font-size: 500%;
-        margin-left: 4em;
-        margin-right: 4em;
+        font-size: 450%;
+        margin-left: 2.5em;
+        margin-right: 2.5em;
     }
     #know-me {
         margin: 3rem;
@@ -149,14 +149,14 @@
         margin-top: 50%;
     }
     #skills {
-        font-size: 425%;
-        margin-left: 2.4em;
-        margin-right: 4em;
+        font-size: 350%;
+        margin-left: 3.25em;
+        margin-right: 3.5em;
     }
     #about {
-        font-size: 450%;
-        margin-left: 2.75em;
-        margin-right: 4em;
+        font-size: 325%;
+        margin-left: 3.25em;
+        margin-right: 3.5em;
     }
     #know-me {
         font-variation-settings: "wght" 1000, "wdth" 400;
@@ -174,7 +174,7 @@
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 900px) {
     header {
         font-size: 1.5rem;
         top: 2%;
@@ -201,13 +201,13 @@
         margin-top: 60%;
     }
     #about {
-        font-size: 275%;
-        margin-left: 3.4em;
-        margin-right: 2.1em;
+        font-size: 315%;
+        margin-left: 3.5em;
+        margin-right: 3.5em;
         // text-align: justify;
     }
     #skills {
-        font-size: 375%;
+        font-size: 315%;
         margin-left: 2em;
         margin-right: 4em;
     }
@@ -220,29 +220,31 @@
     }
 }
 
-// @media (max-width: 500px) {
-//     #prof-pic {
-//         width: 55%;
-//         height: auto;
-//     }
+@media (max-width: 650px) {
+    #prof-pic {
+        width: 55%;
+        height: auto;
+    }
 
-//     #title-text {
-//         font-size: 200%;
-//         margin-top: 58%;
-//     }
-//     #about {
-//         font-variation-settings: "wght" 1000, "wdth" 400;
-//         font-size: 200%;
-//         margin-left: 3.75em;
-//         margin-right: 2em;
-//         min-height: 100vh;
-//         // text-align: justify;
-//     }
-//     #skills {
-//         font-variation-settings: "wght" 1000, "wdth" 400;
-//         font-size: 200%;
-//     }
-// }
+    #title-text {
+        font-size: 200%;
+        margin-top: 58%;
+    }
+    #about {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        font-size: 265%;
+        margin-left: 3em;
+        margin-right: 3em;
+        min-height: 100vh;
+        // text-align: justify;
+    }
+    #skills {
+        font-variation-settings: "wght" 1000, "wdth" 400;
+        font-size: 265%;
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+}
 
 @media (max-width: 426px) {
     header {
@@ -278,14 +280,15 @@
         margin-top: 53%;
     }
     #about {
-        font-size: 151%;
-        margin-left: 4em;
-        margin-right: 4em;
+        font-size: 125%;
+        margin-left: 5em;
+        margin-right: 5em;
         // text-align: justify;
     }
     #skills {
-        font-size: 155%;
-        margin-left: 3.5rem;
+        font-size: 125%;
+        margin-left: em;
+        margin-right: 5em;
         min-height: 40vh;
     }
     #socials {
